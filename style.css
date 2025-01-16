@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px   ;
+    p{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    span{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px ;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 15px   ;
+}
+.name{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    span{
+        font-size: 24px;
+        color: #0071E3;
+        font-weight: 600;
+    }
+}
+.price{
+    font-size: 48px;
+    font-weight: 600;
+}
+.variations{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px   ;
+}
+#color-gray{
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#color-white{
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.datas{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.data{
+    width: 321px;
+    height: 57px;
+    gap: 0px;
+    border-radius: 10px;
+    border:2px solid #CFE7FF;
+    color: black;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight:600 ;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+.active{
+    background-color: #0071E3;
+}
+.disactive{
+    background-color: #CFE7FF;
+}
+.storage-active{
+    border: 4px solid #0071E3;
+}
