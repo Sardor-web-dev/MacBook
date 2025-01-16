@@ -18,7 +18,7 @@ colorWhite.addEventListener("click", () => {
 colorGray.addEventListener("click", () => {
     productColor.textContent = "Gray";
     productImage.src = "./images/image.png";
-    productPrice.textContent = '$2,599'
+    productPrice.textContent = '$1,999'
     colorGray.classList.remove('disactive');
     colorGray.classList.add("active");
     colorWhite.classList.remove("active");
