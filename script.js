@@ -14,6 +14,7 @@ colorWhite.addEventListener("click", () => {
     colorWhite.classList.add("active");
     colorGray.classList.remove("active");
     colorGray.classList.add('disactive');
+    datas.forEach(data => data.classList.remove('storage-active'))
 });
 colorGray.addEventListener("click", () => {
     productColor.textContent = "Gray";
@@ -23,6 +24,7 @@ colorGray.addEventListener("click", () => {
     colorGray.classList.add("active");
     colorWhite.classList.remove("active");
     colorWhite.classList.add('disactive');
+    datas.forEach(data => data.classList.remove('storage-active'))
 });
 
 
